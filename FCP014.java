@@ -1,25 +1,25 @@
+import java.util.*;
 public class FCP014{
-public static void main(String []args)
-{
-int N1 = 56;
-int N2 = 123;
-int N3 = 546;
-if(N1>N2){
-if(N1>N3){
-System.out.println(N1);
+public static void main(String []args){
+Scanner Sc=new Scanner(System.in);
+int A=Sc.nextInt();
+int B=Sc.nextInt(); 
+int C=Sc.nextInt();
+if(A>B){
+if(A>C){
+System.out.println(A);
 }
 else{
-System.out.println(N3);
+System.out.println(C);
 }
+}
+else if(B>C){
+System.out.println(B);
 }
 else{
- if(N2>N3){
-System.out.println(N2);
-}
-else{
-System.out.println(N3);
+System.out.println(C);
 }
 }
 }
-}
+
 
