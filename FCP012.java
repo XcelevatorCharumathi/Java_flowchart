@@ -1,11 +1,12 @@
+import java.util.*;
 public class FCP012{
-public static void main(String []args)
-{
-int Charu = -1243;
-if(Charu>0){
+public static void main(String []args){
+Scanner Sc=new Scanner(System.in);
+int N=Sc.nextInt();
+if(N>0){
 System.out.println("Positive");
 }
-else if(Charu ==0){
+else if(N==0){
 System.out.println("Zero");
 }
 else{
