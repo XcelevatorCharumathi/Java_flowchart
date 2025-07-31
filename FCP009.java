@@ -1,8 +1,9 @@
+import java.util.*;
 public class FCP009{
-public static void main(String []args)
-{
-int A = 36;
-int B = 6;
+public static void main(String []args){
+Scanner Sc=new Scanner(System.in);
+int A=Sc.nextInt();
+int B=Sc.nextInt(); 
 int N;
 int R;
 if (A%B != 0){
